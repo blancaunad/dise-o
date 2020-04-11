@@ -1,0 +1,61 @@
+nav, header, .contenedor, footer{
+    max-width: 96%;
+    margin: auto;
+}
+nav{
+background-color: #005883;
+}
+header{
+    background-color: transparent;
+}
+.contenedor{
+    background-color: transparent;
+}
+.central{
+    background-color: transparent;
+    display: inline-block;
+    max-width: 80%;
+}
+footer{
+    background-color: transparent;
+}
+body{
+    background-image: url(../IMG/fondo1.jpg);
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    color: white;
+
+}
+aside{
+    background-color: white;
+    display: inline-block;
+    max-width: 27%;
+}
+/*menu*/
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    padding: 0.9em 1em;
+} 
+.listadesplegable{
+    display: none;
+    background-color: #005883;
+    position: absolute;
+}
+.listadesplegable a{
+    color: white;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listadesplegable{
+    display: block;
+}
+li a :hover{
+    background-color: steelblue;
+}
